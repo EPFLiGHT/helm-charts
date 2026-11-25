@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  moove:
+  - apiVersion: v2
+    appVersion: "20261124"
+    created: "2026-11-25T13:12:52.840926936Z"
+    digest: cf7ff3f6088c68fe476e5702c56c2687759e6288aa078ea2bc494e3df2f62bf1
+    name: moove
+    type: application
+    urls:
+    - https://github.com/EPFLiGHT/helm-charts/releases/download/moove-0.0.1/moove-0.0.1.tgz
+    version: 0.0.1
+generated: "2026-11-25T13:12:52.840940208Z"
