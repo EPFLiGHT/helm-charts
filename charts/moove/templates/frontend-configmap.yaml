@@ -2,5 +2,4 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: frontend-configmap
-data:
-  {{ required "missing public config" .Values.publicConfig }}
+data: {{ .Values.publicConfig | toYaml | nindent 2 }}
